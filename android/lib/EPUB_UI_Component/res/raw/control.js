@@ -1010,10 +1010,10 @@ ondrag:function (value){
 },
 onjump:function (percent){
 	if (navigator.userAgent.match(/Android/i)) {
-		Android.jump(percent);
+		Android.silderBarListener(percent);
     }
     if (navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)) {
-        window.location = 'anreader:afd:myaction:afd:jump:afd:'+ percent;
+        window.location = 'anreader:afd:myaction:afd:silderBarListener:afd:'+ percent;
     }    
 },
 onbrightness:function (tempBrightness){
