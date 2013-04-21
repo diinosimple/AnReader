@@ -1,4 +1,4 @@
-package com.anreader;
+package com.anfengde.anreader;
 
 import com.anfengde.epub.core.value.Constants;
 import com.anfengde.epub.ui.BookView;
