@@ -257,7 +257,7 @@
 				CC8058311712B9E0006CFC75 /* MessageUI.framework */,
 				CC80582F1712B9D4006CFC75 /* MediaPlayer.framework */,
 				CC8057A71712B98A006CFC75 /* AnFengDe_EPUB_SDK.framework */,
-				CC8057A81712B98A006CFC75 /* AnFengDe_EPUB_UI.embeddedframework */,
+				CC8057A81712B98A006CFC75 /* AnFengDe_EPUB_UI.framework */,
 				CC8057811712B929006CFC75 /* UIKit.framework */,
 				CC8057831712B929006CFC75 /* Foundation.framework */,
 				CC8057851712B929006CFC75 /* CoreGraphics.framework */,
@@ -293,14 +293,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CC8057A81712B98A006CFC75 /* AnFengDe_EPUB_UI.embeddedframework */ = {
+		CC8057A81712B98A006CFC75 /* AnFengDe_EPUB_UI.framework */ = {
 			isa = PBXGroup;
 			children = (
 				CC8057A91712B98A006CFC75 /* AnFengDe_EPUB_UI.framework */,
 				CC8057AA1712B98A006CFC75 /* Resources */,
 			);
-			name = AnFengDe_EPUB_UI.embeddedframework;
-			path = ../lib/AnFengDe_EPUB_UI.embeddedframework;
+			name = AnFengDe_EPUB_UI.framework;
+			path = ../lib/AnFengDe_EPUB_UI.framework;
 			sourceTree = "<group>";
 		};
 		CC8057AA1712B98A006CFC75 /* Resources */ = {
@@ -680,7 +680,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../lib\"",
-					"\"$(SRCROOT)/../lib/AnFengDe_EPUB_UI.embeddedframework\"",
+					"\"$(SRCROOT)/../lib/AnFengDe_EPUB_UI.framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnReader/AnReader-Prefix.pch";
@@ -697,7 +697,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../lib\"",
-					"\"$(SRCROOT)/../lib/AnFengDe_EPUB_UI.embeddedframework\"",
+					"\"$(SRCROOT)/../lib/AnFengDe_EPUB_UI.framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnReader/AnReader-Prefix.pch";
