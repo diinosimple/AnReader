@@ -54,7 +54,6 @@ public class AnReader extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 		this.finish();
 		this.unregisterReceiver(this.broadcastReceiver);
