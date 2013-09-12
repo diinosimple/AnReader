@@ -32,7 +32,9 @@ public class AnReader extends Activity {
         foreground = true;
         setContentView(R.layout.activity_anreader);
         BookView bookView = (BookView) findViewById(R.id.bookView);
-        bookView.setPath(Constants.CACHE_PAHT);
+        // customize cache path 
+        //bookView.setCachePath(Constants.CACHE_PATH);
+        
         bookView.initBook();
         bookView.openShelf();
         Intent intent = getIntent();
