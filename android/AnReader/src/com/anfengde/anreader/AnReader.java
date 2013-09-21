@@ -1,6 +1,5 @@
 package com.anfengde.anreader;
 
-import com.anfengde.epub.core.value.Constants;
 import com.anfengde.epub.ui.BookView;
 import com.anfengde.anreader.R;
 
@@ -32,8 +31,6 @@ public class AnReader extends Activity {
         foreground = true;
         setContentView(R.layout.activity_anreader);
         BookView bookView = (BookView) findViewById(R.id.bookView);
-        // customize cache path 
-        //bookView.setCachePath(Constants.CACHE_PATH);
         
         bookView.initBook();
         bookView.openShelf();
