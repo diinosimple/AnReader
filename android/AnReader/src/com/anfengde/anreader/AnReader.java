@@ -28,8 +28,8 @@ public class AnReader extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        foreground = true;
         setContentView(R.layout.activity_anreader);
+        foreground = true;
         BookView bookView = (BookView) findViewById(R.id.bookView);
         
         bookView.initBook();
